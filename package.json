@@ -1,6 +1,6 @@
 {
   "name": "github-workflow-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "github workflow demo",
   "main": "dist/index.js",
   "scripts": {
