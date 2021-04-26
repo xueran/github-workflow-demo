@@ -35,4 +35,4 @@ jobs:
       - name: Release
         uses: elgohr/Github-Release-Action@master
         env:
-          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
