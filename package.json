@@ -4,6 +4,7 @@
   "description": "github workflow demo",
   "main": "dist/index.js",
   "scripts": {
+    "prepare": "npx husky install",
     "build": "tsc",
     "semantic-release": "npx semantic-release"
   },
@@ -23,6 +24,8 @@
   },
   "homepage": "https://github.com/xueran/github-workflow-demo#readme",
   "devDependencies": {
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
     "semantic-release": "^17.4.2",
