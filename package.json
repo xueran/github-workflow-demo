@@ -4,7 +4,8 @@
   "description": "github workflow demo",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "semantic-release": "npx semantic-release"
   },
   "files": [
     "dist",
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/xueran/github-workflow-demo#readme",
   "devDependencies": {
+    "semantic-release": "^17.4.2",
     "typescript": "^4.2.4"
   }
 }
