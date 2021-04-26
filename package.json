@@ -1,0 +1,27 @@
+{
+  "name": "github-workflow-demo",
+  "version": "1.0.0",
+  "description": "github workflow demo",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "dist",
+    "*.json",
+    "*.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xueran/github-workflow-demo.git"
+  },
+  "author": "yuanxueran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xueran/github-workflow-demo/issues"
+  },
+  "homepage": "https://github.com/xueran/github-workflow-demo#readme",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
